@@ -1,0 +1,8 @@
+<config>
+	<database>
+		<server>localhost</server>
+		<database>my_database</database>
+		<username>root</username>
+		<password>hunter2</password>
+	</database>
+</config>
