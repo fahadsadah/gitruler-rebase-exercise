@@ -1,5 +1,6 @@
 <?php
 
-$file = file_open("config.xml");
+$file = simplexml_load_file("config.xml");
 
-// TODO: finish writing code
+foreach ($file as $key => $value) {
+	if ($key == "username") 
