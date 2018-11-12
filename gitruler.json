@@ -1,0 +1,6 @@
+{
+	"rules":[
+		{"rule": "tagged-commit-added-text-to-file", "tag":"head", "contents":"simplexml", "path":"login.php"},
+		{"rule": "file-contains-in-head","path":"config.xml","negate":"true","contents":"hunter2"}
+	]
+}
